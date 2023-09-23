@@ -16,12 +16,21 @@
     padding: 0;
 
   }
+
+
+  #nav{
+    background-color:hsl(13, 100%, 72%) ;
+  }
   /* Styles pour le menu déroulant nav*/
 .bar {
     display: flex;
-    background-color: hsl(13, 100%, 72%);
+  ;
     color: white;
-    padding: 10px;
+    padding: 10px;  
+    width: 100%;
+    height: 150vh;
+
+
 }
 
 .bar a {
@@ -38,7 +47,7 @@
 
 /* Styles pour le contenu du menu déroulant */
 .dropdown-content {
-    display:flex;
+    display:none;
     position: absolute;
     background-color: #333;
     min-width: 160px;
@@ -65,19 +74,21 @@
 
 
 /* footer */
-footer{
-  background-color: black; 
-  border:   solid crimson;
-  width: 100%;
-  height: 50vh;
+#footer{
+
+
+  background-color: black;
 }
 
+footer{
+ 
+  background-color: black; 
 
-footer {
-    background-color: #333; /* Choisir la couleur de fond souhaitée */
-    color: white;
-    padding: 20px; /* Ajoute un peu d'espace autour du contenu du footer */
-  }
+  width: 100%;
+  height: 30vh;
+}
+
+f
   
   /* Applique un style aux liens du footer */
   footer a {
@@ -99,7 +110,7 @@ footer {
   }
   
   /* Appliquez un style aux éléments de la barre dans le footer */
-  footer .bar {
+ .dropdown:hover {
     display: flex;
     flex-direction: column; /* Affiche les éléments en colonne */
     align-items: center; /* Centre les éléments horizontalement */
